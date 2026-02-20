@@ -22,4 +22,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add activity.txt
           git commit -m "Auto update activity log"
-          git push
+          git push origin main --force
